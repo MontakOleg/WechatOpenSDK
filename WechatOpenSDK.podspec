@@ -13,4 +13,5 @@ Pod::Spec.new do |s|
   s.vendored_libraries = "SDK/*.a"
   s.frameworks = "SystemConfiguration", "Security", "CoreTelephony", "CFNetwork", "UIKit" 
   s.libraries = "z", "sqlite3.0", "c++" 
+  s.modulemap = "SDK/WechatOpenSDK.modulemap"
 end
